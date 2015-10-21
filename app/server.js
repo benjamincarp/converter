@@ -21,3 +21,7 @@ app.get("/hexToRgb", function(req, res) {
 });
 
 app.listen(3000);
+
+
+// export app so we can test it
+exports = module.exports = app;
